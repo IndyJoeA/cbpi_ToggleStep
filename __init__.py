@@ -29,4 +29,4 @@ class ToggleStep(StepBase):
 		pass
 
 	def execute(self):
-		self.next()
+		next(self)
